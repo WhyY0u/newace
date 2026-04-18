@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8087;
+const PORT = 8093;
 
 const server = http.createServer((req, res) => {
   let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : req.url);
@@ -21,6 +21,9 @@ const server = http.createServer((req, res) => {
       '.txt': 'text/plain',
       '.js': 'application/javascript',
       '.css': 'text/css',
+      '.png': 'image/png',
+      '.jpg': 'image/jpeg',
+      '.gif': 'image/gif',
       '.ico': 'image/x-icon',
       '.svg': 'image/svg+xml',
     }[ext] || 'text/plain';
@@ -31,5 +34,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`🌐 ratespot.org running on http://localhost:${PORT}`);
+  console.log(`🌐 rating-ru.cc running on http://localhost:${PORT}`);
 });

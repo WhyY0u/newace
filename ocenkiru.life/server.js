@@ -20,7 +20,9 @@ const server = http.createServer((req, res) => {
       '.xml': 'application/xml',
       '.txt': 'text/plain',
       '.js': 'application/javascript',
-      '.css': 'text/css'
+      '.css': 'text/css',
+      '.ico': 'image/x-icon',
+      '.svg': 'image/svg+xml',
     }[ext] || 'text/plain';
 
     res.writeHead(200, { 'Content-Type': contentType });
