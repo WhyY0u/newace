@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /favicon.svg
+Allow: /favicon.ico
+
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&fbclid&gclid&yclid
 
 Sitemap: https://rating-ru.cc/sitemap.xml
+Host: rating-ru.cc

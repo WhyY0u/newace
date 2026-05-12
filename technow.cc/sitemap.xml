@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://technow.cc/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://technow.cc/favicon.svg</image:loc>
+      <image:title>TechNow — trust-change.io reviews</image:title>
+      <image:caption>Verified user reviews of trust-change.io P2P exchange</image:caption>
+    </image:image>
   </url>
 </urlset>
