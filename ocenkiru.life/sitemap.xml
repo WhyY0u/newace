@@ -8,7 +8,7 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://ocenkiru.life/favicon.svg</image:loc>
+      <image:loc>https://ocenkiru.life/og-image.png</image:loc>
       <image:title>ОценкиRU — оценки trust-change.io</image:title>
       <image:caption>Оценки и отзывы о криптообменнике trust-change.io</image:caption>
     </image:image>

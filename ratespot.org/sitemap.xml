@@ -8,7 +8,7 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://ratespot.org/favicon.svg</image:loc>
+      <image:loc>https://ratespot.org/og-image.png</image:loc>
       <image:title>RateSpot — trust-change.io reviews</image:title>
       <image:caption>Independent user reviews of trust-change.io crypto exchange</image:caption>
     </image:image>
